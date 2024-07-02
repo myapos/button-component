@@ -14,6 +14,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@vitest/utils": "^1.6.0",
     "vue": "^3.4.29"
   },
   "devDependencies": {
