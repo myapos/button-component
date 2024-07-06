@@ -18,7 +18,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue'
 import { EVENTS, VARIANTS, SIZES, ICON_PLACEMENT } from './constants'
 import { type ButtonProps } from './types'
 
