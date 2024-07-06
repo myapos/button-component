@@ -52,7 +52,8 @@ const placementClasses = {
   [ICON_PLACEMENT.BOTH]: ''
 }
 
-const isLinkIcon = props.variant === VARIANTS.LINK_COLOR || props.variant === VARIANTS.LINK_GRAY
+const btnIconList = new Set([VARIANTS.LINK_COLOR, VARIANTS.LINK_GRAY])
+const isLinkIcon = btnIconList.has(props.variant)
 
 const sizeClasses = {
   [SIZES.MEDIUM]: isLinkIcon ? 'gap-1 px-0.5 text-sm' : 'text-sm gap-1 px-3.5 py-2.5',
