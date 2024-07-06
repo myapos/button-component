@@ -2,7 +2,7 @@
 
 This a coding challenge published in GreatFrontEnd platform and it's main task is to implement a reusable, responsive button component. This implementation is using Vite, Vue3 and Tailwind CSS.
 
-[Demo URL](.)
+[Demo URL](https://button-component-lyart.vercel.app/)
 
 ## Recommended IDE Setup
 
