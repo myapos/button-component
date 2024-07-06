@@ -46,7 +46,7 @@ export const basicComponentStoryMeta: Meta<typeof ButtonComponent> = {
     text: {
       control: 'text'
     },
-    [EVENTS.BUTTON_CLICKED]: {
+    [EVENTS.BUTTON_CLICKED as string]: {
       action: EVENTS.BUTTON_CLICKED
     }
   }
