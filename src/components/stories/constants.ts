@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/vue3'
-import ButtonComponent from '../ButtonComponent.vue'
+import ButtonComponent from '@/components/ButtonComponent.vue'
 import { VARIANTS, SIZES, ICON_PLACEMENT, EVENTS } from '../constants'
 
 export const TemplateButtonComponent = `
